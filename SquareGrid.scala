@@ -1,4 +1,4 @@
-package Project1
+package GameOfLife
 
 class SquareGrid (var xLength: Int, var yLength: Int){
   var squares: Array[Array[Square]] = populateGrid()

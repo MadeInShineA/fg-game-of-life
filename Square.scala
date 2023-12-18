@@ -1,4 +1,4 @@
-package Project1
+package GameOfLife
 
 class Square (var xPosition: Int ,var yPosition: Int){
   var isAlive: Boolean = false

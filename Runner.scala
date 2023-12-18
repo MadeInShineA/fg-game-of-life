@@ -1,4 +1,4 @@
-package Project1
+package GameOfLife
 
 import hevs.graphics.FunGraphics
 

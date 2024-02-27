@@ -58,7 +58,7 @@ object Runner extends App{
     override def mouseDragged(e: MouseEvent): Unit = {
 
       if (e.getX < GRAPHICS_WIDTH && e.getY < GRAPHICS_HEIGHT && e.getX > 0 && e.getY > 0){
-        val squareX: Int = e.getX / GRID_SQUARE_SIZE
+          val squareX: Int = e.getX / GRID_SQUARE_SIZE
         val squareY: Int = e.getY / GRID_SQUARE_SIZE
 
         val square = SquareGrid.getSquare(squareX, squareY)
@@ -135,7 +135,6 @@ object Runner extends App{
     for(i: Int <- 0 to GRAPHICS_HEIGHT by GRID_SQUARE_SIZE){
       display.drawLine(0, i, GRAPHICS_WIDTH, i)
     }
-
   }
 
   def drawSquares(): Unit ={
